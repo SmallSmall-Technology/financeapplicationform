@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Application form</title>
+
+    <header class="header__image">
+
+        <div class='header__img'>
+            <img src="./image/personalinfo.svg" alt="personal information"  /><br/>personal info<br/>
+            <input id="personal__headinfo" name"type="text"name="First Name"/><br/>
+        </div>
+
+
+        <div class='header__img' >
+            <img src="./image/employment.svg" alt="employment information"   /><br/>Employment info<br/>
+            <input class="header__info" name"type="text"name="First Name"/><br/>
+        </div>
+
+        <div class='header__img'>
+            <img src="./image/disbursement.svg" alt="disbursement information" /><br/>Disbursement Account Details<br/>
+            <input class="header__info" name"type="text"name="First Name"/><br/>
+        </div>
+
+        <div class='header__img'>
+            <img src="./image/accountstatement.svg" alt="account information" /><br/>Account statement & ID<br/>
+            <input class="header__info" name"type="text"name="First Name"/><br/>
+        </div>
+
+        <div class='header__img'>
+            <img src="./image/summary.svg" alt="summary" /><br/>summary<br/>
+            <input class="header__info" name"type="text"name="First Name"/><br/>
+        </div>
+    </div>
+   
+
+    </header>
+
+    <link rel="stylesheet" type="text/css" href="./form.css" />
+</head>
+
+
+<!-- >>>>Body<<<< -->
+
+<body>
+    <div class="info">
+    <h1> Financing Application</h1>
+    
+    <div  class="form_elem">
+        <h3 id="persona"> personal info</h3>
+
+    <form>
+        <label for="fname"></label><br>
+
+        <div class="form__one">
+        <input type="text" id="fname" placeholder="Firstname"type="text"name="First Name">
+       <input type="text" id="lname" placeholder=" Lastname"type="text"name="Last Name"><br/>
+    </div>
+
+        <input type="text" id="email" placeholder="Email"type="text"name="email"><br/>
+        <input type="text" id="phone__number>" placeholder="Phone number"type="text"name="Phone number"><br/>
+        <input type="text" id="BVN" placeholder="BVN"type="text"name="BVN"><br/>
+         
+        <!-- <input type="text" id="dob" placeholder="Date of birth" type="text"name="date of birth"><br/> -->
+    
+        <label for="username">Date of birth</label><br/>
+        <input  id="start"  onfocus="(this.type='date')" type="date" min="1900-01-01" max="2088-12-31"><br/>
+
+        <input type="text" id="marital__status" placeholder="Marital status" type="text"name="Marital status"><br/>
+        <input type="text" id="gender" placeholder="Gender"type="text"name="gender"><br/>
+        <textarea placeholder="Residential Address"type="text"name="gender" ></textarea><br>
+        
+    </form>
+    <button><a href="../loginPageTwo/pagetwo.html">Next</a></button>
+    </div>
+    
+</div>
+</body>
+</html>

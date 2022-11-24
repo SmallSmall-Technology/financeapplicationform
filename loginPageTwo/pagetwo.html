@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page two</title>
+
+
+<header class="header__image">
+
+    <div class='header__img'>
+        <img src="../loginPage/image/personalinfo.svg" alt="personal information"  /><br/>personal info<br/>
+        <input class="personal__headinfo" name"type="text"/><br/>
+    </div>
+
+
+    <div class='header__img' >
+        <img src="../loginPage/image/purpbriefcase.svg" alt="employment information"   /><br/>Employment info<br/>
+        <input class="personal__headinfo" name"type="text"/><br/>
+    </div>
+
+    <div class='header__img'>
+        <img src="../loginPage/image/disbursement.svg" alt="disbursement information" /><br/>Disbursement Account Details<br/>
+        <input class="header__info" name"type="text"/><br/>
+    </div>
+
+    <div class='header__img'>
+        <img src="../loginPage/image/accountstatement.svg" alt="account information" /><br/>Account statement<br/>
+        <input class="header__info" name"type="text"/><br/>
+    </div>
+
+    <div class='header__img'>
+        <img src="../loginPage/image/summary.svg" alt="summary" /><br/>summary<br/>
+        <input class="header__info" name"type="text"/><br/>
+    </div>
+</div>
+
+</header>
+
+<link rel="stylesheet" type="text/css" href="./pagetwo.css" />
+</head>
+
+
+<body>
+    <div class="info">
+    <h1> Financing Application</h1>
+    
+    <div  class="form_elem">
+        <h3 id="persona__two"> Employment info</h3>
+
+    <form action="#" method="POST">
+
+
+        <input type="text" id="occupation" placeholder="Occupation"type="text"name="occupation"><br/>
+
+        <input type="text" id="position" placeholder="Position"type="text"name="position"><br/>
+        <input type="text" id="company_name" placeholder="Company Name"type="text"name="company name"><br/>
+         
+        <!-- <input type="text" id="networth" placeholder="Net monthly income range"type="text"name="networth"> -->
+        <input type="option" placeholder="Net monthly income range" name="Networth" list="networth">
+                <datalist id="networth">
+                <option value="Less N100k">  
+                <option value="N101k to N200k ">
+                <option value="N201k to N400k">  
+                <option value="N401k to N600k">
+                <option value="N601k to N800k">  
+                <option value="N801k to N1m">
+                <option value="N1.1m to N1.4m">  
+                <option value="N1.41m to N1.7m">
+                <option value="N1.71m to N2m">
+                <option value="N2.1m to N2.5m">
+                <option value="N2.51m to N3m">
+                <option value="N3.1m">
+                </datalist>
+
+                
+                <br/>
+                
+                
+                <textarea placeholder="Company Address"type="text"name="company address" ></textarea><br>
+                
+                
+                <div id="btn__tags">
+                   <button id="back__btn">Back</button>
+               
+                   <button id="next__btn">Next</button>
+                  
+                </div>  
+
+    </form>
+    </div>
+    
+</div>
+</body>
+</html>
